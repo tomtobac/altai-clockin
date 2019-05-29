@@ -4,8 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "today": "babel-node src/index.js",
-    "yesterday": "babel-node src/index.js -1"
+    "start": "babel-node src/index.js",
+    "yesterday": "babel-node src/index.js -1",
+    "c": "babel-node src/calendar.js"
   },
   "keywords": [],
   "author": "",
